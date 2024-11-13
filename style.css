@@ -121,7 +121,7 @@ body {
 .skill-bar-progress {
     height: 100%;
     border-radius: 9999px;
-    background: linear-gradient(90deg, rgba(157, 78, 221, 0.5) 0%, rgba(184, 102, 255, 0.8) 100%);
+    background: linear-gradient(90deg, rgba(255, 255, 255) 0%, rgb(255, 255, 255) 100%);
     box-shadow: 0 0 10px rgba(157, 78, 221, 0.5);
     transition: width 1s ease-out;
     width: 0;
