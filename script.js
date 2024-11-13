@@ -60,6 +60,27 @@ function animateSkillBars() {
   });
 }
 
+function typeWriter() {
+  const text = "Full Stack Developer & UI/UX Designer";
+  const typingElement = document.querySelector(".typing-text");
+  let index = 0;
+  
+  // Create cursor element
+  const cursor = document.createElement('span');
+  cursor.className = 'typing-cursor';
+  typingElement.parentNode.insertBefore(cursor, typingElement.nextSibling);
+
+  function type() {
+      if (index < text.length) {
+          typingElement.textContent += text.charAt(index);
+          index++;
+          setTimeout(type, 70);
+      }
+  }
+
+  type();
+}
+
 document.querySelectorAll('a[href^="#"]').forEach((anchor) => {
   anchor.addEventListener("click", function (e) {
     e.preventDefault();
@@ -72,4 +93,5 @@ document.querySelectorAll('a[href^="#"]').forEach((anchor) => {
 document.addEventListener("DOMContentLoaded", () => {
   createAnimatedBackground();
   animateSkillBars();
+  typeWriter();
 });
