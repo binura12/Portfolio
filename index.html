@@ -1,0 +1,305 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Binura Namulitha</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <nav class="fixed w-full z-50">
+        <div class="container mx-auto px-6 py-4 flex justify-between items-center">
+            <div class="text-2xl font-bold" data-aos="fade-right">
+                Portfolio
+            </div>
+            <div class="space-x-8" data-aos="fade-left">
+                <a href="#skills">Skills</a>
+                <a href="#projects">Projects</a>
+                <a href="#contact">Contact</a>
+            </div>
+        </div>
+    </nav>
+
+    <section class="section pt-32 pb-16 relative">
+        <div class="animated-bg" id="animatedBg"></div>
+        <section class="pt-32 pb-16">
+            <div class="container mx-auto px-6">
+                <div class="flex flex-col md:flex-row items-center justify-center gap-12">
+                    <div class="w-48 h-48 rounded-full neon-border overflow-hidden" data-aos="fade-right">
+                        <img src="Assets/Untitled design.jpg" alt="Profile" class="w-full h-full object-cover">
+                    </div>
+                    <div class="text-center md:text-left" data-aos="fade-left">
+                        <h1 class="text-4xl font-bold mb-4">Binura Namulitha</h1>
+                        <p class="text-xl mb-6">Full Stack Developer & Ui/Ux Designer</p>
+                        <button class="neon-btn px-6 py-2 rounded-lg" onclick="downlodCV()">Download CV</button>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </section>
+
+    <section id="skills" class="section py-16 gradient-bg">
+        <div class="container mx-auto px-6">
+            <h2 class="section-title text-center" data-aos="fade-up">Skills</h2>
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+                <div class="neon-card p-6 rounded-lg" data-aos="fade-up">
+                    <h3 class="text-xl font-bold mb-6">Frontend</h3>
+                    <div class="skill-card">
+                        <div class="skill-bar-container">
+                            <div class="skill-bar-header">
+                                <span>HTML5</span>
+                                <span>95%</span>
+                            </div>
+                            <div class="skill-bar-bg neon-border">
+                                <div class="skill-bar-progress" data-percentage="95"></div>
+                            </div>
+                        </div>
+                        <div class="skill-bar-container">
+                            <div class="skill-bar-header">
+                                <span>CSS3</span>
+                                <span>95%</span>
+                            </div>
+                            <div class="skill-bar-bg neon-border">
+                                <div class="skill-bar-progress" data-percentage="95"></div>
+                            </div>
+                        </div>
+                        <div class="skill-bar-container">
+                            <div class="skill-bar-header">
+                                <span>Angular</span>
+                                <span>85%</span>
+                            </div>
+                            <div class="skill-bar-bg neon-border">
+                                <div class="skill-bar-progress" data-percentage="85"></div>
+                            </div>
+                        </div>
+                        <div class="skill-bar-container">
+                            <div class="skill-bar-header">
+                                <span>TypeScript</span>
+                                <span>85%</span>
+                            </div>
+                            <div class="skill-bar-bg neon-border">
+                                <div class="skill-bar-progress" data-percentage="85"></div>
+                            </div>
+                        </div>
+                        <div class="skill-bar-container">
+                            <div class="skill-bar-header">
+                                <span>Dart (Flutter)</span>
+                                <span>15%</span>
+                            </div>
+                            <div class="skill-bar-bg neon-border">
+                                <div class="skill-bar-progress" data-percentage="15"></div>
+                            </div>
+                        </div>
+                        <div class="skill-bar-container">
+                            <div class="skill-bar-header">
+                                <span>WordPress</span>
+                                <span>85%</span>
+                            </div>
+                            <div class="skill-bar-bg neon-border">
+                                <div class="skill-bar-progress" data-percentage="85"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="neon-card p-6 rounded-lg" data-aos="fade-up">
+                    <h3 class="text-xl font-bold mb-6">Backend</h3>
+                    <div class="skill-card">
+                        <div class="skill-bar-container">
+                            <div class="skill-bar-header">
+                                <span>Java</span>
+                                <span>90%</span>
+                            </div>
+                            <div class="skill-bar-bg neon-border">
+                                <div class="skill-bar-progress" data-percentage="90"></div>
+                            </div>
+                        </div>
+                        <div class="skill-bar-container">
+                            <div class="skill-bar-header">
+                                <span>Spring Boot</span>
+                                <span>90%</span>
+                            </div>
+                            <div class="skill-bar-bg neon-border">
+                                <div class="skill-bar-progress" data-percentage="90"></div>
+                            </div>
+                        </div>
+                        <div class="skill-bar-container">
+                            <div class="skill-bar-header">
+                                <span>MySQL</span>
+                                <span>90%</span>
+                            </div>
+                            <div class="skill-bar-bg neon-border">
+                                <div class="skill-bar-progress" data-percentage="90"></div>
+                            </div>
+                        </div>
+                        <div class="skill-bar-container">
+                            <div class="skill-bar-header">
+                                <span>JavaFX</span>
+                                <span>90%</span>
+                            </div>
+                            <div class="skill-bar-bg neon-border">
+                                <div class="skill-bar-progress" data-percentage="90"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="neon-card p-6 rounded-lg" data-aos="fade-up">
+                    <h3 class="text-xl font-bold mb-6">Tools</h3>
+                    <div class="skill-card">
+                        <div class="skill-bar-container">
+                            <div class="skill-bar-header">
+                                <span>VS Code</span>
+                                <span>95%</span>
+                            </div>
+                            <div class="skill-bar-bg neon-border">
+                                <div class="skill-bar-progress" data-percentage="95"></div>
+                            </div>
+                        </div>
+                        <div class="skill-bar-container">
+                            <div class="skill-bar-header">
+                                <span>IntelliJ IDEA</span>
+                                <span>90%</span>
+                            </div>
+                            <div class="skill-bar-bg neon-border">
+                                <div class="skill-bar-progress" data-percentage="90"></div>
+                            </div>
+                        </div>
+                        <div class="skill-bar-container">
+                            <div class="skill-bar-header">
+                                <span>NetBeans</span>
+                                <span>80%</span>
+                            </div>
+                            <div class="skill-bar-bg neon-border">
+                                <div class="skill-bar-progress" data-percentage="80"></div>
+                            </div>
+                        </div>
+                        <div class="skill-bar-container">
+                            <div class="skill-bar-header">
+                                <span>Geany</span>
+                                <span>85%</span>
+                            </div>
+                            <div class="skill-bar-bg neon-border">
+                                <div class="skill-bar-progress" data-percentage="85"></div>
+                            </div>
+                        </div>
+                        <div class="skill-bar-container">
+                            <div class="skill-bar-header">
+                                <span>XAMPP</span>
+                                <span>70%</span>
+                            </div>
+                            <div class="skill-bar-bg neon-border">
+                                <div class="skill-bar-progress" data-percentage="70"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+    </section>
+
+    <section id="projects" class="py-16">
+        <div class="container mx-auto px-6">
+            <h2 class="section-title text-center" data-aos="fade-up">Projects</h2>
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+                <div class="neon-card rounded-lg overflow-hidden" data-aos="fade-up">
+                    <div class="h-48 gradient-bg flex items-center justify-center">
+                        <img src="Assets/Screenshot 2024-11-12 105731.png" alt="">
+                    </div>
+                    <div class="p-6">
+                        <h3 class="text-xl font-bold mb-2">MSK Bookshop-POS</h3>
+                        <p class="text-gray-300 mb-4">POS System for a Bookshop.</p>
+                        <p class="text-gray-300 mb-4">Technical Stack - Angular, TypeScript, Spring Boot, Java, MySQL
+                        </p><br>
+                        <button class="neon-btn px-4 py-2 rounded-lg w-full" onclick="openProject('https://github.com/binura12/Bookshop-POS-frontend.git')">View Project</button>
+                    </div>
+                </div>
+                <div class="neon-card rounded-lg overflow-hidden" data-aos="fade-up">
+                    <div class="h-48 gradient-bg flex items-center justify-center">
+                        <img src="Assets/Screenshot 2024-11-12 105222.png" alt="">
+                    </div>
+                    <div class="p-6">
+                        <h3 class="text-xl font-bold mb-2">Sky Caster</h3>
+                        <p class="text-gray-300 mb-4">A simple Web Application with innovative features, including
+                            real-time weather update and customizable location settings.</p>
+                        <p class="text-gray-300 mb-4">Technical Stack - HTML, CSS, JavaScript</p>
+                        <button class="neon-btn px-4 py-2 rounded-lg w-full" onclick="openProject('https://github.com/binura12/Weather-Application.git')">View Project</button>
+                    </div>
+                </div>
+                <div class="neon-card rounded-lg overflow-hidden" data-aos="fade-up">
+                    <div class="h-48 gradient-bg flex items-center justify-center">
+                        <img src="Assets/Screenshot 2024-11-12 105311.png" alt="">
+                    </div>
+                    <div class="p-6">
+                        <h3 class="text-xl font-bold mb-2">MOS Burgers - POS</h3>
+                        <p class="text-gray-300 mb-4">POS System for a BurgerShop.</p>
+                        <p class="text-gray-300 mb-4">Technical Stack - HTML, CSS, JavaScript</p><br><br>
+                        <button class="neon-btn px-4 py-2 rounded-lg w-full" onclick="openProject('https://github.com/binura12/Mos-Burgers')">View Project</button>
+                    </div>
+                </div>
+                <div class="neon-card rounded-lg overflow-hidden" data-aos="fade-up">
+                    <div class="h-55 gradient-bg flex items-center justify-center">
+                        <img src="Assets/Screenshot 2024-11-12 105644.png" alt="">
+                    </div>
+                    <div class="p-6">
+                        <h3 class="text-xl font-bold mb-2">Thoga Kade</h3>
+                        <p class="text-gray-300 mb-4">A simple pos system for a small shop</p>
+                        <p class="text-gray-300 mb-4">Technical Stack - Java (MVC Architecture)</p>
+                        <button class="neon-btn px-4 py-2 rounded-lg w-full" onclick="openProject('https://github.com/binura12/ThogaKade-JavaFx.git')">View Project</button>
+                    </div>
+                </div>
+                <div class="neon-card rounded-lg overflow-hidden" data-aos="fade-up">
+                    <div class="h-55 gradient-bg flex items-center justify-center">
+                        <img src="Assets/Recipe Wizard.png" alt="">
+                    </div>
+                    <div class="p-6">
+                        <h3 class="text-xl font-bold mb-2">Recipe Wizard</h3>
+                        <p class="text-gray-300 mb-4">Figma Design of a meal planning app.</p>
+                        <button class="neon-btn px-4 py-2 rounded-lg w-full" onclick="openProject('https://www.behance.net/gallery/211725559/Recipe-Wizard-meal-planning-app')">View Project</button>
+                    </div>
+                </div>
+                <div class="neon-card rounded-lg overflow-hidden" data-aos="fade-up">
+                    <div class="h-55 gradient-bg flex items-center justify-center">
+                        <img src="Assets/Juicy Joy.png" alt="">
+                    </div>
+                    <div class="p-6">
+                        <h3 class="text-xl font-bold mb-2">Juicy Joy</h3>
+                        <p class="text-gray-300 mb-4">Figma Design for Juice Bar Online Ordering App</p>
+                        <button class="neon-btn px-4 py-2 rounded-lg w-full" onclick="openProject('https://shorturl.at/34zfR')">View Project</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="py-16 gradient-bg">
+        <div class="container mx-auto px-6">
+            <h2 class="section-title text-center" data-aos="fade-up">Contact Me</h2>
+            <div class="max-w-2xl mx-auto">
+                <form class="space-y-6" data-aos="fade-up">
+                    <input type="text" id="name" placeholder="Name" class="w-full rounded-lg p-3">
+                    <input type="email" id="email" placeholder="Email" class="w-full rounded-lg p-3">
+                    <textarea placeholder="Message" id="message" rows="5" class="w-full rounded-lg p-3"></textarea>
+                    <button type="submit" class="neon-btn px-8 py-3 rounded-lg w-full" onclick="sendMessage()">Send Message</button>
+                </form>
+
+                <div class="flex justify-center space-x-8 mt-12" data-aos="fade-up">
+                    <a href="https://www.linkedin.com/in/binura-namulitha-2ba746312/" class="social-icon text-3xl"
+                        target="_blank"><i class="fab fa-linkedin"></i></a>
+                    <a href="https://github.com/binura12" class="social-icon text-3xl" target="_blank"><i
+                            class="fab fa-github"></i></a>
+                    <a href="https://www.instagram.com/b1nur4._" class="social-icon text-3xl" target="_blank"><i
+                            class="fab fa-instagram"></i></a>
+                    <a href="mailto:binura.bin02@gmail.com" class="social-icon text-3xl" target="_blank"><i
+                            class="fas fa-envelope"></i></a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script src="script.js"></script>
+</body>
+
+</html>
