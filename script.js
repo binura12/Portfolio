@@ -21,7 +21,7 @@ function createAnimatedBackground() {
 }
 
 function downlodCV() {
-  window.open("Docs/CV.pdf", "_blank");
+  window.open("Docs/Binura Namulitha 2024 CV", "_blank");
 }
 
 function openProject(url) {
